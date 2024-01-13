@@ -76,7 +76,7 @@ const Projects = () => {
           <ImageProject src="../1.png" alt="image" />
         </ImageDiv>
         <ProjectAbout>
-          <ProjectTitle>E-commerce product page</ProjectTitle>
+          <ProjectTitle>Weather Map</ProjectTitle>
           <ProjectDescription>
             Successfully crafted an engaging product page featuring a dynamic
             lightbox gallery and seamless cart functionality, showcasing
@@ -103,7 +103,7 @@ const Projects = () => {
           <div>
             <p>
               <a
-                href="https://movie-ghibli-list-xi.vercel.app/"
+                href="https://weather-report-9nfy1ujzf-quemias-projects.vercel.app/"
                 target="_blank"
               >
                 {" "}

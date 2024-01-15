@@ -73,7 +73,7 @@ const Projects = () => {
 
       <CardContainer>
         <ImageDiv>
-          <ImageProject src="../1.png" alt="image" />
+          <ImageProject src="../3.png" alt="image" />
         </ImageDiv>
         <ProjectAbout>
           <ProjectTitle>Weather Map</ProjectTitle>
@@ -103,7 +103,7 @@ const Projects = () => {
           <div>
             <p>
               <a
-                href="https://weather-report-9nfy1ujzf-quemias-projects.vercel.app/"
+                href="https://weather-report-iota-pink.vercel.app/"
                 target="_blank"
               >
                 {" "}

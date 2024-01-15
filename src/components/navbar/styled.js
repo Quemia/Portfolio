@@ -22,7 +22,8 @@ export const Logo = styled.img`
 export const Content = styled.div`
   display: flex;
 `;
-export const Options = styled.p`
+export const Options = styled.li`
+  list-style-type: none;
   color: #fff;
   font: normal bold 16px/8px "Inter", "sans-serif";
 

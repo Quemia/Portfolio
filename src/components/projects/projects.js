@@ -1,4 +1,4 @@
-import React from "react";
+import React, { forwardRef } from "react";
 
 import {
   Container,
@@ -20,8 +20,8 @@ import { Line } from "../contact/styled.js";
 
 const Projects = () => {
   return (
-    <>
-      <Container>
+    <div>
+      <Container id="projects">
         <Content>
           <ContentTitle>Featured Projects</ContentTitle>
           <ContentSubtitle>
@@ -118,8 +118,8 @@ const Projects = () => {
         </CardContainer>
       </Container>
       <Line />
-    </>
+    </div>
   );
 };
 
-export default Projects;
+export default forwardRef(Projects);

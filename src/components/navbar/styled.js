@@ -23,6 +23,8 @@ export const Content = styled.div`
   display: flex;
 `;
 export const Options = styled.li`
+  background-color: transparent;
+  border: transparent;
   list-style-type: none;
   color: #fff;
   font: normal bold 16px/8px "Inter", "sans-serif";

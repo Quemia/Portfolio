@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import { Container, Logo, Content, Options } from "./styled.js";
 
@@ -8,22 +8,23 @@ const Navbar = () => {
       <Logo src="../2.png" alt="logo.png" />
       <Content>
         <Options>
-          {/* <Link to="/"> Inicio</Link> */}
+          <Link to="home" spy={true} smooth={true} offset={300} duration={500}>
+            Inicio
+          </Link>
         </Options>
         <Options>
-          {" "}
-          {/* <Link to="/projects">Projetos </Link> */}
+          <Link
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={300}
+            duration={500}
+          >
+            Projetos
+          </Link>
         </Options>
-        <Options>
-          {" "}
-          {/* <Link to="/about" /> */}
-          Sobre
-        </Options>
-        <Options>
-          {" "}
-          {/* <Link to="/contact" /> */}
-          Contato
-        </Options>
+        <Options> Sobre</Options>
+        <Options> Contato</Options>
       </Content>
     </Container>
   );

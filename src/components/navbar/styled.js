@@ -22,7 +22,7 @@ export const Logo = styled.img`
 export const Content = styled.div`
   display: flex;
 `;
-export const Options = styled.li`
+export const Options = styled.a`
   background-color: transparent;
   border: transparent;
   list-style-type: none;

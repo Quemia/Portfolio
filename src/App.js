@@ -17,7 +17,6 @@ import projects from "./components/projects/projects";
 function App() {
   return (
     <AppContainer id="home">
-      {/* <Navbar /> */}
       <Container>
         <Logo src="../2.png" alt="logo.png" />
         <Content>

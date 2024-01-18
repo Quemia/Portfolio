@@ -7,22 +7,8 @@ const Navbar = () => {
     <Container>
       <Logo src="../2.png" alt="logo.png" />
       <Content>
-        <Options>
-          <Link to="home" spy={true} smooth={true} offset={300} duration={500}>
-            Inicio
-          </Link>
-        </Options>
-        <Options>
-          <Link
-            to="projects"
-            spy={true}
-            smooth={true}
-            offset={300}
-            duration={500}
-          >
-            Projetos
-          </Link>
-        </Options>
+        <Options>Inicio</Options>
+        <Options href="projects">Projetos</Options>
         <Options> Sobre</Options>
         <Options> Contato</Options>
       </Content>

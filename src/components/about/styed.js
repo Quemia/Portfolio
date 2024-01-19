@@ -13,3 +13,8 @@ export const TextTitleAbout = styled.h3`
   color: #fff;
   font: normal 200 56px/20px "Bebas Neue", "sans-serif";
 `;
+
+export const TextAbout = styled.p`
+  color: #fff;
+  font: normal 200 26px/20px "Bebas Neue", "sans-serif";
+`;

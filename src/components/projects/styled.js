@@ -106,5 +106,47 @@ export const ProjectTableTh = styled.th`
   padding: 8px 0px;
 `;
 
+export const DemoContainer = styled.div`
+  align-items: baseline;
+  display: flex;
+  margin-top: 28px;
+`;
+
+export const LiveDemo = styled.a`
+  color: #a6ff96;
+  letter-spacing: 2px;
+  font: normal 600 16px/30px "Manrope", "sans-serif";
+  margin-right: 24px;
+`;
+
+export const DivIcons = styled.div`
+  display: flex;
+  align-items: baseline;
+`;
+
+export const DivCardStack = styled.div`
+  display: flex;
+  align-items: baseline;
+  padding: 20px;
+  background-color: #1a1a1a;
+`;
+
+export const IconReact = styled.p`
+  color: #57bdd9;
+  font: normal 600 30px/30px "Manrope", "sans-serif";
+  margin: 0 10px 0 0;
+`;
+
+export const IconStyled = styled.p`
+  color: #d693c6;
+  margin: 0;
+
+  font: normal 600 40px/30px "Manrope", "sans-serif";
+`;
+
+// export const  = styled. ``;
+// export const  = styled. ``;
+// export const  = styled. ``;
+// export const  = styled. ``;
 // export const  = styled. ``;
 // export const  = styled. ``;

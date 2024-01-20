@@ -41,7 +41,7 @@ function App() {
               to="about"
               spy={true}
               smooth={true}
-              offset={300}
+              offset={40}
               duration={500}
             >
               Sobre

@@ -1,4 +1,8 @@
 import React, { forwardRef } from "react";
+import { FaGithub } from "react-icons/fa";
+import { GoArrowUpRight } from "react-icons/go";
+import { RiReactjsFill } from "react-icons/ri";
+import { SiStyledcomponents } from "react-icons/si";
 
 import {
   Container,
@@ -15,18 +19,24 @@ import {
   Content,
   ContentTitle,
   ContentSubtitle,
+  DemoContainer,
+  LiveDemo,
+  IconReact,
+  DivIcons,
+  IconStyled,
+  DivCardStack,
 } from "./styled.js";
 import { Line } from "../contact/styled.js";
 
 const Projects = () => {
   return (
-    <div>
+    <>
       <Container id="projects">
         <Content>
-          <ContentTitle>Featured Projects</ContentTitle>
+          <ContentTitle>Projetos</ContentTitle>
           <ContentSubtitle>
-            Here are some of the selected projects that showcase my passion for
-            front-end development.
+            Aqui estão alguns dos projetos que mostram meu trabalho e paixão
+            pelo desenvolvimento Front-End.
           </ContentSubtitle>
         </Content>
         <CardContainer>
@@ -36,40 +46,51 @@ const Projects = () => {
           <ProjectAbout>
             <ProjectTitle>Movie List</ProjectTitle>
             <ProjectDescription>
-              Successfully crafted an engaging product page featuring a dynamic
-              lightbox gallery and seamless cart functionality, showcasing
-              proficiency in JavaScript development.
+              Esta é uma aplicação que lista todos os filmes do Studio Ghibli
+              lançados até hoje. A aplicação fornece informações sobre os
+              filmes, como descrição e título original.
             </ProjectDescription>
             <div>
               <ProjectTable>
                 <ProjectTableTr>
                   <ProjectTableTd>
-                    <ProjectTableTh>Project Info</ProjectTableTh>
+                    <ProjectTableTh>Informações do Projeto</ProjectTableTh>
                   </ProjectTableTd>
                   <ProjectTableTd></ProjectTableTd>
                 </ProjectTableTr>
                 <ProjectTableTr>
-                  <ProjectTableTd>Year</ProjectTableTd>
+                  <ProjectTableTd>Ano</ProjectTableTd>
                   <ProjectTableTd>2022</ProjectTableTd>
                 </ProjectTableTr>
                 <ProjectTableTr>
                   <ProjectTableTd>Role</ProjectTableTd>
                   <ProjectTableTd>Front-End Developer</ProjectTableTd>
                 </ProjectTableTr>
+                <ProjectTableTr>
+                  <ProjectTableTd>Stack</ProjectTableTd>{" "}
+                  <ProjectTableTd>
+                    ReactJs, Styled-Componets
+                  </ProjectTableTd>
+                </ProjectTableTr>
               </ProjectTable>
             </div>
-            <div>
+            <DemoContainer>
               <p>
-                <a
+                <LiveDemo
                   href="https://movie-ghibli-list-xi.vercel.app/"
                   target="_blank"
                 >
                   {" "}
-                  Live Demo
-                </a>
+                  Live Demo <GoArrowUpRight />
+                </LiveDemo>
               </p>
-              <p>See on GitHub</p>
-            </div>
+              <LiveDemo
+                href=" https://github.com/Quemia/Movies-List/"
+                target="_blank"
+              >
+                See on GitHub <FaGithub />
+              </LiveDemo>
+            </DemoContainer>
           </ProjectAbout>
         </CardContainer>
 
@@ -80,15 +101,16 @@ const Projects = () => {
           <ProjectAbout>
             <ProjectTitle>Weather Map</ProjectTitle>
             <ProjectDescription>
-              Successfully crafted an engaging product page featuring a dynamic
-              lightbox gallery and seamless cart functionality, showcasing
-              proficiency in JavaScript development.
+              Essa aplicação mostra o clima na sua região. Ela funciona
+              utilizando a localização do navegador para buscar o clima da
+              região na API do Weather Map. Ela retorna a temperatura, sensação
+              térmica, umidade e etc.
             </ProjectDescription>
             <div>
               <ProjectTable>
                 <ProjectTableTr>
                   <ProjectTableTd>
-                    <ProjectTableTh>Project Info</ProjectTableTh>
+                    <ProjectTableTh>Informações do Projeto</ProjectTableTh>
                   </ProjectTableTd>
                   <ProjectTableTd></ProjectTableTd>
                 </ProjectTableTr>
@@ -100,25 +122,36 @@ const Projects = () => {
                   <ProjectTableTd>Role</ProjectTableTd>
                   <ProjectTableTd>Front-End Developer</ProjectTableTd>
                 </ProjectTableTr>
+                <ProjectTableTr>
+                  <ProjectTableTd>Stack</ProjectTableTd>{" "}
+                  <ProjectTableTd>
+                    ReactJs, Material UI
+                  </ProjectTableTd>
+                </ProjectTableTr>
               </ProjectTable>
             </div>
-            <div>
+            <DemoContainer>
               <p>
-                <a
+                <LiveDemo
                   href="https://weather-report-iota-pink.vercel.app/"
                   target="_blank"
                 >
                   {" "}
-                  Live Demo
-                </a>
+                  Live Demo <GoArrowUpRight />
+                </LiveDemo>
               </p>
-              <p>See on GitHub</p>
-            </div>
+              <LiveDemo
+                href="https://github.com/Quemia/Weather-Map/"
+                target="_blank"
+              >
+                See on GitHub <FaGithub />
+              </LiveDemo>
+            </DemoContainer>
           </ProjectAbout>
         </CardContainer>
       </Container>
       <Line />
-    </div>
+    </>
   );
 };
 

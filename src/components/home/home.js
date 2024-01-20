@@ -22,14 +22,13 @@ const Home = () => {
     <>
       <Container>
         <ContentAbout>
-          <h1>Hello, I am Quemia Oliveira</h1>
+          <h1>Olá, eu sou a Quemia Oliveira</h1>
           <ContentText>
-            A Sydney based front-end developer passionate about building
-            accessible and user friendly websites.
+            Sou uma Desenvolvedora Front-End.
           </ContentText>
           <OptionDiv>
             <ButtonEmail>
-              CONTACT ME{" "}
+              Vamos nos conectar!{" "}
               <IconDot>
                 {" "}
                 <GoDotFill />{" "}

@@ -81,14 +81,16 @@ export const TextSubtitle = styled.p`
   font: normal 200 18px/20px "Manrope", "sans-serif";
 `;
 
-export const ContactCards = styled.div`
+export const ContactCards = styled.button`
+  cursor: pointer;
   margin-right: 40px;
+  border: transparent;
   padding: 10px 30px;
   align-items: center;
   background-color: #0a0a0a;
   display: block;
   text-align: center;
-  width: 180px;
+  /* width: 180px; */
   height: 100px;
   background-color: #1a1a1a;
   border-radius: 12px;
@@ -104,13 +106,14 @@ export const ContentContact = styled.div`
   color: #fff;
 `;
 
-export const CardIcon = styled.button`
+export const CardIcon = styled.i`
   background-color: transparent;
   border: transparent;
   cursor: pointer;
   color: #fff;
   font: normal 200 30px/20px "Manrope", "sans-serif";
   margin: 12px 5px;
+  padding: 5px;
 `;
 
 export const CardText = styled.p`

@@ -14,6 +14,12 @@ import {
 } from "./styled.js";
 
 const Contact = () => {
+  const handleSend = () => {
+    window.open =
+      ("https://www.linkedin.com/in/quemia-caroline-alves-de-oliveira-635042209/",
+      "_blank");
+  };
+
   return (
     <Container id="contact">
       <ContentText>
@@ -22,25 +28,32 @@ const Contact = () => {
           Me envie um email ou uma mensagem pelo LinkedIn.
         </TextSubtitle>
 
-        <TextSubtitle>
-          Para mais informações aqui está meu currículo.    
-         
-         <a href="www.com" target="_blank">
+        {/* <TextSubtitle>
+          Para mais informações aqui está meu currículo.
+          <a href="www.com" target="_blank">
             resume
           </a>
-        </TextSubtitle>
+        </TextSubtitle> */}
       </ContentText>
       <ContentContact>
-        <ContactCards>
-          <CardIcon>
-            {" "}
+        <ContactCards
+          onClick={() => (window.location = "mailto:quemiac@gmail.com")}
+        >
+          <CardIcon style={{ color: "#edbc11" }}>
             <MdEmail />
           </CardIcon>
           <CardText>quemiac@gmail.com</CardText>
         </ContactCards>
-        <ContactCards>
-          <CardIcon>
-            {" "}
+
+        <ContactCards
+          onClick={() =>
+            window.open(
+              "https://www.linkedin.com/in/quemia-caroline-alves-de-oliveira-635042209",
+              "_blank"
+            )
+          }
+        >
+          <CardIcon style={{ color: "#126bc4" }}>
             <FaLinkedin />
           </CardIcon>
           <CardText>quemiaoliveira</CardText>

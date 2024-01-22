@@ -13,31 +13,32 @@ const About = () => {
     <>
       <Container id="about">
         <>
-          <TitleAbout>About Me</TitleAbout>
+          <TitleAbout>Sobre Mim</TitleAbout>
         </>
         <Content>
           <TextTitleAbout>
-            I am a front-end developer based in Sydney. Has Mechanical
-            Engineering background.{" "}
+            {/* I am a front-end developer based in Sydney. Has Mechanical
+            Engineering background.{" "} */}
+            Sou uma Desenvolvedora Front-End :).
           </TextTitleAbout>
           <TextAbout>
-            I am a front-end developer based in Sydney looking for exciting
-            opportunities. Has Mechanical Engineering background. Likes to focus
-            on accessibility when developing. Passionate and curious about
-            solving problems. Currently, I’m exploring Reactjs, Webflow and a
-            bit of Designing. While I am not programming, I enjoy playing
-            football, photography and playing Valorant. Learning more to improve
-            skill.u
+            Tenho paixão por criar interfaces visuais atraentes e intuitivas,
+            sempre visando proporcionar a melhor experiência possível ao
+            usuário. Observar o código tomar vida na tela, com cada elemento se
+            encaixando harmoniosamente, é o que mais me fascina na programação.
+            O desafio que mais aprecio é a criação de código limpo e eficiente,
+            resolvendo problemas de maneira elegante e proporcionando soluções
+            inovadoras
           </TextAbout>
 
           <TextAbout>
-            I am a front-end developer based in Sydney looking for exciting
-            opportunities. Has Mechanical Engineering background. Likes to focus
-            on accessibility when developing. Passionate and curious about
-            solving problems. Currently, I’m exploring Reactjs, Webflow and a
-            bit of Designing. While I am not programming, I enjoy playing
-            football, photography and playing Valorant. Learning more to improve
-            skill.u
+            Além do meu ambiente profissional, tenho grande apreço pela natação
+            e participo regularmente de competições nesse esporte. Acredito
+            firmemente que a disciplina exigida pelo esporte contribui para o
+            desenvolvimento do atleta em diversas áreas da vida. Além disso, sou
+            uma entusiasta ávida da leitura, dedicando-me com entusiasmo a
+            explorar universos incríveis por meio dos livros e desfrutando das
+            viagens que a leitura proporciona.
           </TextAbout>
         </Content>
       </Container>

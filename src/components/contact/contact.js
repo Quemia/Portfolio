@@ -17,11 +17,15 @@ const Contact = () => {
   return (
     <Container id="contact">
       <ContentText>
-        <TextTitle>Let's Connect</TextTitle>
-        <TextSubtitle>Send me email</TextSubtitle>
+        <TextTitle>Vamos nos Conectar!</TextTitle>
         <TextSubtitle>
-          For more info here's my{" "}
-          <a href="www.com" target="_blank">
+          Me envie um email ou uma mensagem pelo LinkedIn.
+        </TextSubtitle>
+
+        <TextSubtitle>
+          Para mais informações aqui está meu currículo.    
+         
+         <a href="www.com" target="_blank">
             resume
           </a>
         </TextSubtitle>

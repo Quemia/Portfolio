@@ -28,7 +28,7 @@ const Home = () => {
           </ContentText>
           <OptionDiv>
             <ButtonEmail>
-              Vamos nos conectar!{" "}
+             Contate-me{" "}
               <IconDot>
                 {" "}
                 <GoDotFill />{" "}

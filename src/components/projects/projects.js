@@ -68,9 +68,7 @@ const Projects = () => {
                 </ProjectTableTr>
                 <ProjectTableTr>
                   <ProjectTableTd>Stack</ProjectTableTd>{" "}
-                  <ProjectTableTd>
-                    ReactJs, Styled-Componets
-                  </ProjectTableTd>
+                  <ProjectTableTd>ReactJs, Styled-Componets</ProjectTableTd>
                 </ProjectTableTr>
               </ProjectTable>
             </div>
@@ -88,7 +86,7 @@ const Projects = () => {
                 href=" https://github.com/Quemia/Movies-List/"
                 target="_blank"
               >
-                See on GitHub <FaGithub />
+                Veja no GitHub <FaGithub />
               </LiveDemo>
             </DemoContainer>
           </ProjectAbout>
@@ -124,9 +122,7 @@ const Projects = () => {
                 </ProjectTableTr>
                 <ProjectTableTr>
                   <ProjectTableTd>Stack</ProjectTableTd>{" "}
-                  <ProjectTableTd>
-                    ReactJs, Material UI
-                  </ProjectTableTd>
+                  <ProjectTableTd>ReactJs, Material UI</ProjectTableTd>
                 </ProjectTableTr>
               </ProjectTable>
             </div>
@@ -144,7 +140,7 @@ const Projects = () => {
                 href="https://github.com/Quemia/Weather-Map/"
                 target="_blank"
               >
-                See on GitHub <FaGithub />
+                Veja no GitHub <FaGithub />
               </LiveDemo>
             </DemoContainer>
           </ProjectAbout>

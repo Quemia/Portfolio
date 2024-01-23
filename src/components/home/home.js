@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { GoDotFill } from "react-icons/go";
+import { Link } from "react-scroll";
 
 import {
   Container,
@@ -23,24 +24,35 @@ const Home = () => {
       <Container>
         <ContentAbout>
           <h1>Olá, eu sou a Quemia Oliveira</h1>
-          <ContentText>
-            Sou uma Desenvolvedora Front-End.
-          </ContentText>
+          <ContentText>Sou uma Desenvolvedora Front-End.</ContentText>
           <OptionDiv>
             <ButtonEmail>
-             Contate-me{" "}
-              <IconDot>
-                {" "}
-                <GoDotFill />{" "}
-              </IconDot>
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={300}
+                duration={500}
+              >
+                Contate-me
+              </Link>
             </ButtonEmail>
-            <ButtonIcon>
+            <ButtonIcon
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/quemia-caroline-alves-de-oliveira-635042209",
+                  "_blank"
+                )
+              }
+            >
               <IconB>
                 {" "}
                 <FaLinkedinIn />{" "}
               </IconB>
             </ButtonIcon>
-            <ButtonIcon>
+            <ButtonIcon
+              onClick={() => window.open("https://github.com/Quemia", "_blank")}
+            >
               <IconB>
                 {" "}
                 <FaGithub />{" "}

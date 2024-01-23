@@ -121,3 +121,12 @@ export const CardText = styled.p`
   font: normal 200 18px/20px "Manrope", "sans-serif";
   margin: 1px;
 `;
+export const ButtonDownload = styled.button`
+  background-color: transparent;
+  border: transparent;
+  color: #a6ff96;
+  cursor: pointer;
+  font: normal 200 18px/20px "Manrope", "sans-serif";
+  letter-spacing: 1px;
+  margin: 1px;
+`;

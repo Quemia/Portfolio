@@ -7,6 +7,11 @@ export const Container = styled.div`
 
   display: flex;
   align-items: center;
+
+  @media (max-width: 523px) {
+    display: block;
+    width: 80%;
+  }
 `;
 
 export const ContentAbout = styled.div`
@@ -15,11 +20,33 @@ export const ContentAbout = styled.div`
   margin: 190px 80px 260px 108px;
 
   color: #fff;
+
+  @media (max-width: 523px) {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+`;
+
+export const TextHello = styled.h1`
+  margin: 0;
+  color: #fff;
+  font: normal 200 57px/40px "Bebas Neue", "sans-serif";
+
+  @media (max-width: 523px) {
+    margin-top: 40px;
+    font: normal 200 51px/51px "Bebas Neue", "sans-serif";
+  }
 `;
 
 export const ContentText = styled.p`
   color: #fff;
   font: normal 200 18px/20px "Manrope", "sans-serif";
+
+  @media (max-width: 523px) {
+    font: normal 200 16px/20px "Manrope", "sans-serif";
+  }
 `;
 
 export const Imagem = styled.img`
@@ -27,6 +54,14 @@ export const Imagem = styled.img`
   /* height: 450px; */
   border-radius: 100%;
   filter: brightness(0.5);
+
+
+  @media (max-width: 523px) {
+    border-radius: 10%;
+    width: 320px;
+    margin: 64px auto;
+
+  }
 `;
 
 export const OptionDiv = styled.div`
@@ -46,6 +81,11 @@ export const ButtonEmail = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 523px) {
+    width: 250px;
+    height: 51px;
+  }
 `;
 
 export const IconDot = styled.i`
@@ -64,6 +104,11 @@ export const ButtonIcon = styled.button`
   width: 54px;
   height: 54px;
   margin-left: 16px;
+
+  @media (max-width: 523px) {
+    width: 60px;
+    height: 45px;
+  }
 `;
 
 export const IconB = styled.i`

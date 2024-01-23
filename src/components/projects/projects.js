@@ -51,11 +51,10 @@ const Projects = () => {
               filmes, como descrição e título original.
             </ProjectDescription>
             <div>
+              <ProjectTableTh>Informações do Projeto</ProjectTableTh>
               <ProjectTable>
                 <ProjectTableTr>
-                  <ProjectTableTd>
-                    <ProjectTableTh>Informações do Projeto</ProjectTableTh>
-                  </ProjectTableTd>
+                  <ProjectTableTd></ProjectTableTd>
                   <ProjectTableTd></ProjectTableTd>
                 </ProjectTableTr>
                 <ProjectTableTr>

@@ -18,7 +18,7 @@ function App() {
   return (
     <AppContainer id="home">
       <Container>
-        <Logo src="../2.png" alt="logo.png" />
+        <Logo src="../2.png" alt="logo.png" /> */}
         <Content>
           <Options>
             <Link to="home" spy={true} smooth={true} offset={10} duration={500}>

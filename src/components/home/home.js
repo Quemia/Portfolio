@@ -12,7 +12,7 @@ import {
   ButtonIcon,
   IconB,
   ButtonEmail,
-  IconDot,
+  TextHello,
   OptionDiv,
   Line,
 } from "./styled";
@@ -23,7 +23,7 @@ const Home = () => {
     <>
       <Container>
         <ContentAbout>
-          <h1>Olá, eu sou a Quemia Oliveira</h1>
+          <TextHello>Olá, eu sou a Quemia Oliveira</TextHello>
           <ContentText>Sou uma Desenvolvedora Front-End.</ContentText>
           <OptionDiv>
             <ButtonEmail>

@@ -8,6 +8,11 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
 
+  @media (max-width: 667px) {
+    display: flex;
+    width: 60%;
+  }
+
   @media (max-width: 523px) {
     display: block;
     width: 80%;
@@ -18,10 +23,16 @@ export const ContentAbout = styled.div`
   display: block;
   width: 554px;
   margin: 190px 80px 260px 108px;
-
   color: #fff;
 
-  @media (max-width: 523px) {
+  @media screen and (max-width: 667px) {
+    display: block;
+    width: 100%;
+    margin: 10px 20px 20px 10px;
+    padding: 0;
+  }
+
+  @media screen and (max-width: 523px) {
     display: block;
     width: 100%;
     margin: 0;
@@ -34,9 +45,14 @@ export const TextHello = styled.h1`
   color: #fff;
   font: normal 200 57px/40px "Bebas Neue", "sans-serif";
 
-  @media (max-width: 523px) {
+  @media screen and (max-width: 667px) {
     margin-top: 40px;
-    font: normal 200 51px/51px "Bebas Neue", "sans-serif";
+    font: normal 200 40px/51px "Bebas Neue", "sans-serif";
+  }
+
+  @media screen and (max-width: 523px) {
+    margin-top: 40px;
+    font: normal 200 48px/51px "Bebas Neue", "sans-serif";
   }
 `;
 
@@ -55,12 +71,16 @@ export const Imagem = styled.img`
   border-radius: 100%;
   filter: brightness(0.5);
 
+  @media (max-width: 667px) {
+    border-radius: 100%;
+    width: 250px;
+    margin: 30px auto;
+  }
 
   @media (max-width: 523px) {
     border-radius: 10%;
     width: 320px;
     margin: 64px auto;
-
   }
 `;
 

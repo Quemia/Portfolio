@@ -9,6 +9,16 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   box-shadow: inset 0 -0.2rem #121212;
+
+  @media (max-width: 667px) {
+    padding: 0;
+    width: 100%;
+  }
+
+  @media (max-width: 523px) {
+    padding: 0;
+    width: auto;
+  }
 `;
 
 export const Logo = styled.img`

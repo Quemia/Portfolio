@@ -8,8 +8,8 @@ export const Container = styled.div`
   justify-content: space-around;
   display: flex;
   align-items: center;
-
-  @media (max-width: 523px) {
+  
+  @media (max-width: 667px) {
     display: block;
   }
 `;
@@ -30,8 +30,9 @@ export const Line = styled.div`
 
 export const TextTitle = styled.h3`
   color: #fff;
-  font: normal 200 56px/20px "Bebas Neue", "sans-serif";
-  @media (max-width: 523px) {
+  font: normal 200 56px/40px "Bebas Neue", "sans-serif";
+
+  @media (max-width: 667px) {
     font: normal 200 43px/40px "Bebas Neue", "sans-serif";
   }
 `;
@@ -40,7 +41,7 @@ export const TextSubtitle = styled.p`
   color: #fff;
   font: normal 200 18px/20px "Manrope", "sans-serif";
 
-  @media (max-width: 523px) {
+  @media (max-width: 667px) {
     font: normal 200 16px/20px "Manrope", "sans-serif";
   }
 `;
@@ -54,7 +55,6 @@ export const ContactCards = styled.button`
   background-color: #0a0a0a;
   display: block;
   text-align: center;
-  /* width: 180px; */
   height: 100px;
   background-color: #1a1a1a;
   border-radius: 12px;

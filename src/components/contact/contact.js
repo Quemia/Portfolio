@@ -31,7 +31,7 @@ const Contact = () => {
 
   return (
     <Container id="contact">
-      {/* <ContentText> */}
+      <ContentText>
         <TextTitle>Vamos nos Conectar!</TextTitle>
         <TextSubtitle>
           Me envie um Email ou uma mensagem pelo LinkedIn.
@@ -47,7 +47,7 @@ const Contact = () => {
             Currículo.
           </ButtonDownload>
         </TextSubtitle>
-      {/* </ContentText> */}
+      </ContentText>
       <ContentContact>
         <ContactCards
           onClick={() => (window.location = "mailto:quemiac@gmail.com")}

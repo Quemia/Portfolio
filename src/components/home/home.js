@@ -60,9 +60,8 @@ const Home = () => {
             </ButtonIcon>
           </OptionDiv>
         </ContentAbout>
-        <div>
-          <Imagem alt="img-dev" src="eu.jpeg" />
-        </div>
+
+        <Imagem alt="img-dev" src="eu.jpeg" />
       </Container>
       <Line />
     </>

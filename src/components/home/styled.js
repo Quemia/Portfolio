@@ -67,19 +67,25 @@ export const ContentText = styled.p`
 
 export const Imagem = styled.img`
   width: 400px;
-  /* height: 450px; */
+  height: 400px;
   border-radius: 100%;
   filter: brightness(0.5);
+
+  /* background-image:url("../eu.jpg"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
 
   @media (max-width: 667px) {
     border-radius: 100%;
     width: 250px;
+    height: 250px;
     margin: 30px auto;
   }
 
   @media (max-width: 523px) {
     border-radius: 10%;
     width: 320px;
+    height: 320px;
     margin: 64px auto;
   }
 `;

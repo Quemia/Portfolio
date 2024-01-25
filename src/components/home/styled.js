@@ -71,10 +71,6 @@ export const Imagem = styled.img`
   border-radius: 100%;
   filter: brightness(0.5);
 
-  /* background-image:url("../eu.jpg"); */
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-
   @media (max-width: 667px) {
     border-radius: 100%;
     width: 250px;
@@ -103,7 +99,6 @@ export const ButtonEmail = styled.button`
   height: 54px;
   color: #0a0a0a;
   cursor: pointer;
-  /* margin-left: 16px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -144,7 +139,6 @@ export const IconB = styled.i`
 `;
 
 export const Line = styled.div`
-  /* margin-top: 10%; */
   width: 100%;
   border-bottom: 1px solid #484848;
 `;

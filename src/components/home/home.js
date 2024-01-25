@@ -16,7 +16,6 @@ import {
   OptionDiv,
   Line,
 } from "./styled";
-// import { IconBase } from "react-icons/lib";
 
 const Home = () => {
   return (

@@ -8,6 +8,11 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
 
+  @media (max-width: 920px) {
+    width: 80%;
+    margin: auto;
+  }
+
   @media (max-width: 667px) {
     display: flex;
     width: 60%;
@@ -24,6 +29,10 @@ export const ContentAbout = styled.div`
   width: 554px;
   margin: 190px 80px 260px 108px;
   color: #fff;
+
+  @media (max-width: 920px) {
+    margin: 10px 30px 20px 30px;
+  }
 
   @media screen and (max-width: 667px) {
     display: block;
@@ -44,6 +53,10 @@ export const TextHello = styled.h1`
   margin: 0;
   color: #fff;
   font: normal 200 57px/40px "Bebas Neue", "sans-serif";
+
+  @media (max-width: 920px) {
+    font: normal 200 40px/51px "Bebas Neue", "sans-serif";
+  }
 
   @media screen and (max-width: 667px) {
     margin-top: 40px;
@@ -70,6 +83,13 @@ export const Imagem = styled.img`
   height: 400px;
   border-radius: 100%;
   filter: brightness(0.5);
+
+  @media (max-width: 920px) {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    margin: 30px auto;
+  }
 
   @media (max-width: 667px) {
     border-radius: 100%;

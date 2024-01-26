@@ -1,6 +1,7 @@
 import React from "react";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa6";
+import { FaRegCopyright } from "react-icons/fa6";
 
 import {
   Container,
@@ -12,6 +13,9 @@ import {
   CardIcon,
   CardText,
   ButtonDownload,
+  DivTextCopyright,
+  TitleCopyright,
+  SubtitleCopyright,
 } from "./styled.js";
 
 const PDF_FILE_URL = "http://localhost:3000/Quemia_Oliveira.pdf";
@@ -30,49 +34,58 @@ const Contact = () => {
   };
 
   return (
-    <Container id="contact">
-      <ContentText>
-        <TextTitle>Vamos nos Conectar!</TextTitle>
-        <TextSubtitle>
-          Me envie um Email ou uma mensagem pelo LinkedIn.
-        </TextSubtitle>
+    <>
+      <Container id="contact">
+        <ContentText>
+          <TextTitle>Vamos nos Conectar!</TextTitle>
+          <TextSubtitle>
+            Me envie um Email ou uma mensagem pelo LinkedIn.
+          </TextSubtitle>
 
-        <TextSubtitle>
-          Para mais informações aqui está meu  
-          <ButtonDownload
-            onClick={() => {
-              downloadFileAtUrl(PDF_FILE_URL);
-            }}
+          <TextSubtitle>
+            Para mais informações aqui está meu
+            <ButtonDownload
+              onClick={() => {
+                downloadFileAtUrl(PDF_FILE_URL);
+              }}
+            >
+              Currículo.
+            </ButtonDownload>
+          </TextSubtitle>
+        </ContentText>
+        <ContentContact>
+          <ContactCards
+            onClick={() => (window.location = "mailto:quemiac@gmail.com")}
           >
-            Currículo.
-          </ButtonDownload>
-        </TextSubtitle>
-      </ContentText>
-      <ContentContact>
-        <ContactCards
-          onClick={() => (window.location = "mailto:quemiac@gmail.com")}
-        >
-          <CardIcon style={{ color: "#edbc11" }}>
-            <MdEmail />
-          </CardIcon>
-          <CardText>quemiac@gmail.com</CardText>
-        </ContactCards>
+            <CardIcon style={{ color: "#edbc11" }}>
+              <MdEmail />
+            </CardIcon>
+            <CardText>quemiac@gmail.com</CardText>
+          </ContactCards>
 
-        <ContactCards
-          onClick={() =>
-            window.open(
-              "https://www.linkedin.com/in/quemia-caroline-alves-de-oliveira-635042209",
-              "_blank"
-            )
-          }
-        >
-          <CardIcon style={{ color: "#126bc4" }}>
-            <FaLinkedin />
-          </CardIcon>
-          <CardText>quemiaoliveira</CardText>
-        </ContactCards>
-      </ContentContact>
-    </Container>
+          <ContactCards
+            onClick={() =>
+              window.open(
+                "https://www.linkedin.com/in/quemia-caroline-alves-de-oliveira-635042209",
+                "_blank"
+              )
+            }
+          >
+            <CardIcon style={{ color: "#126bc4" }}>
+              <FaLinkedin />
+            </CardIcon>
+            <CardText>quemiaoliveira</CardText>
+          </ContactCards>
+        </ContentContact>
+      </Container>
+      <DivTextCopyright>
+        <TitleCopyright>Copyright</TitleCopyright>
+        <FaRegCopyright />
+        <TitleCopyright>2024</TitleCopyright>
+
+        <SubtitleCopyright>All rights reserved</SubtitleCopyright>
+      </DivTextCopyright>
+    </>
   );
 };
 

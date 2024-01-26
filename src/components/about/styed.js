@@ -8,20 +8,34 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-around;
 
-  @media (max-width: 667px) {
+  @media (max-width: 920px) {
+    height: 100vh;
     display: block;
-    margin-bottom: 200px;
+    margin: 20px 108px 170px 80px;
+  }
+
+  @media (max-width: 667px) {
+    height: 80vh;
+    display: block;
+    margin: 0;
+    margin-bottom: 90px;
   }
 
   @media (max-width: 523px) {
+    height: 80vh;
     display: block;
-    margin-bottom: 180px;
+    margin: 0;
+    margin-bottom: 80px;
   }
 `;
 
 export const Content = styled.div`
   display: block;
   width: 704px;
+
+  @media (max-width: 920px) {
+    width: 500px;
+  }
 
   @media (max-width: 667px) {
     width: 500px;
@@ -36,6 +50,10 @@ export const TitleAbout = styled.h3`
   color: #fff;
   font: normal 200 56px/20px "Bebas Neue", "sans-serif";
 
+  @media (max-width: 920px) {
+    font: normal 200 43px/20px "Bebas Neue", "sans-serif";
+  }
+
   @media (max-width: 667px) {
     font: normal 200 43px/20px "Bebas Neue", "sans-serif";
   }
@@ -45,6 +63,10 @@ export const TextTitleAbout = styled.h3`
   color: #fff;
   font: normal 200 32px/40px "Manrope", "sans-serif";
 
+  @media (max-width: 920px) {
+    font: normal 200 25px/20px "Manrope", "sans-serif";
+  }
+
   @media (max-width: 667px) {
     font: normal 200 25px/25px "Manrope", "sans-serif";
   }
@@ -53,7 +75,11 @@ export const TextTitleAbout = styled.h3`
 export const TextAbout = styled.p`
   color: #fff;
   font: normal 200 18px/25px "Manrope", "sans-serif";
-  
+
+  @media (max-width: 920px) {
+    font: normal 200 18px/25px "Manrope", "sans-serif";
+  }
+
   @media (max-width: 667px) {
     font: normal 200 18px/25px "Manrope", "sans-serif";
   }

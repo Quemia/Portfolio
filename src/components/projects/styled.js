@@ -35,8 +35,11 @@ export const Content = styled.div`
 export const ContentTitle = styled.h4`
   color: #fff;
   margin: 0;
-
   font: normal 400 66px/20px "Bebas Neue", "sans-serif";
+
+  @media (max-width: 920px) {
+    font: normal 400 53px/20px "Bebas Neue", "sans-serif";
+  }
 
   @media (max-width: 667px) {
     font: normal 400 43px/20px "Bebas Neue", "sans-serif";
@@ -70,6 +73,11 @@ export const CardContainer = styled.div`
   align-items: center;
   color: #fff;
 
+  @media (max-width: 920px) {
+    display: block;
+    margin: 80px 108px;
+  }
+
   @media (max-width: 667px) {
     display: block;
     margin: 40px;
@@ -85,7 +93,6 @@ export const ImageDiv = styled.div`
   width: 550px;
   height: 350px;
   display: flex;
-  /* width: 50% ; */
   background-color: #1a1a1a;
   border-radius: 12px;
 
@@ -125,6 +132,10 @@ export const ImageProject = styled.img`
 
 export const ProjectAbout = styled.div`
   display: block;
+
+  @media (max-width: 920px) {
+    margin-top: 3rem;
+  }
 `;
 
 export const ProjectTitle = styled.h3`
@@ -218,10 +229,3 @@ export const IconStyled = styled.p`
 
   font: normal 600 40px/30px "Manrope", "sans-serif";
 `;
-
-// export const  = styled. ``;
-// export const  = styled. ``;
-// export const  = styled. ``;
-// export const  = styled. ``;
-// export const  = styled. ``;
-// export const  = styled. ``;

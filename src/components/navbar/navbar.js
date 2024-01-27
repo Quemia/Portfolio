@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import styled from "styled-components";
-import Sidebar from "./sidebar";
-import { Container, Logo } from "./styled";
+import { Container, Logo, Ul } from "./styled";
+import { Link } from "react-scroll";
 
 const StyledBurguer = styled.div`
   width: 2rem;
@@ -17,6 +17,10 @@ const StyledBurguer = styled.div`
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
+  }
+
+  @media (max-width: 768px) {
+    top: 25px;
   }
 
   div {
@@ -55,7 +59,62 @@ const Navbar = () => {
         <div />
         <div />
       </StyledBurguer>
-      <Sidebar open={open} />
+
+      <Ul open={open}>
+        <li>
+          <Link
+            style={{ color: "#fff", listStyle: "none", border: "transparent" }}
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={10}
+            duration={500}
+            onClick={() => setOpen(false)}
+          >
+            Inicio
+          </Link>
+        </li>
+        <li>
+          <Link
+            style={{ color: "#fff", listStyle: "none", border: "transparent" }}
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={20}
+            duration={500}
+            onClick={() => setOpen(false)}
+          >
+            Projetos
+          </Link>
+        </li>
+        <li>
+          <Link
+            style={{ color: "#fff", listStyle: "none", border: "transparent" }}
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={30}
+            duration={500}
+            open={false}
+            onClick={() => setOpen(false)}
+          >
+            Sobre
+          </Link>
+        </li>
+        <li>
+          <Link
+            style={{ color: "#fff", listStyle: "none", border: "transparent" }}
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={40}
+            duration={500}
+            onClick={() => setOpen(false)}
+          >
+            Contato
+          </Link>
+        </li>
+      </Ul>
     </Container>
   );
 };

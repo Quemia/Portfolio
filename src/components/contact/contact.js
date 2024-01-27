@@ -18,7 +18,7 @@ import {
   SubtitleCopyright,
 } from "./styled.js";
 
-const PDF_FILE_URL = "http://localhost:3000/Quemia_Oliveira.pdf";
+const PDF_FILE_URL = "../Quemia_Oliveira.pdf";
 
 const Contact = () => {
   const downloadFileAtUrl = (url) => {

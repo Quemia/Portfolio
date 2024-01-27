@@ -9,10 +9,21 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
 
+  @media (max-width: 1024px) {
+    display: block;
+    margin: 56px 40px;
+  }
+
   @media (max-width: 920px) {
     display: block;
-    height: 90vh;
+    height: 40vh;
     margin: 80px 108px 20px 108px;
+  }
+
+  @media (max-width: 800px) {
+    height: 60vh;
+    display: block;
+    margin: 20px 108px 300px 80px;
   }
 
   @media (max-width: 667px) {
@@ -20,19 +31,19 @@ export const Container = styled.div`
     height: 70vh;
     margin: 10px;
   }
+
+  @media (max-width: 400px) {
+    display: block;
+    height: 70vh;
+    margin: 10px;
+  }
 `;
 
-export const ContentText = styled.p`
-  color: #fff;
-  font: normal 200 18px/20px "Manrope", "sans-serif";
+export const ContentText = styled.div`
+  /* color: #fff;
+  font: normal 200 18px/20px "Manrope", "sans-serif"; */
 
-  @media (max-width: 900px) {
-    display: block;
-  }
-
-  @media (max-width: 523px) {
-    display: block;
-  }
+  display: block;
 `;
 
 export const Line = styled.div`
@@ -44,12 +55,15 @@ export const TextTitle = styled.h3`
   color: #fff;
   font: normal 200 56px/40px "Bebas Neue", "sans-serif";
 
+  @media (max-width: 1024px) {
+    font: normal 200 50px/40px "Bebas Neue", "sans-serif";
+  }
   @media (max-width: 900px) {
     font: normal 200 43px/40px "Bebas Neue", "sans-serif";
   }
 
-  @media (max-width: 667px) {
-    font: normal 200 43px/40px "Bebas Neue", "sans-serif";
+  @media (max-width: 400px) {
+    font: normal 200 35px/40px "Bebas Neue", "sans-serif";
   }
 `;
 
@@ -61,32 +75,32 @@ export const TextSubtitle = styled.p`
     font: normal 200 16px/20px "Manrope", "sans-serif";
   }
 
-  @media (max-width: 667px) {
-    font: normal 200 16px/20px "Manrope", "sans-serif";
-  }
 `;
 
 export const ContactCards = styled.button`
-  cursor: pointer;
-  margin-right: 40px;
-  border: transparent;
-  padding: 10px 30px;
-  align-items: center;
-  background-color: #0a0a0a;
   display: block;
-  text-align: center;
   height: 100px;
+  width: 200px;
+  margin-right: 40px;
+
   background-color: #1a1a1a;
   border-radius: 12px;
+  border: transparent;
   color: #fff;
 
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+
   @media (max-width: 900px) {
-    padding: 10px 30px;
-    margin: 20px 15px;
+    /* padding: 10px 30px; */
+    width: 200px;
+    margin: 20px auto;
   }
 
   @media (max-width: 523px) {
-    padding: 10px 30px;
+    /* padding: 10px 30px; */
+    width: 200px;
     margin: 20px auto;
   }
 `;
@@ -99,13 +113,19 @@ export const ContentContact = styled.div`
   align-items: center;
   color: #fff;
 
+  @media (max-width: 1024px) {
+    padding: 20px 0;
+  }
+
   @media (max-width: 920px) {
     margin-left: -43px;
   }
 
   @media (max-width: 523px) {
     display: block;
+    margin: 12px auto;
   }
+
 `;
 
 export const CardIcon = styled.i`

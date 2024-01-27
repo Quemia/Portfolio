@@ -8,6 +8,11 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
 
+  @media (max-width: 1366px) {
+    width: 90%;
+    margin: auto;
+  }
+
   @media (max-width: 920px) {
     width: 80%;
     margin: auto;
@@ -30,18 +35,22 @@ export const ContentAbout = styled.div`
   margin: 190px 80px 260px 108px;
   color: #fff;
 
+  @media (max-width: 1024px) {
+    margin: 10px 30px 20px 30px;
+  }
+
   @media (max-width: 920px) {
     margin: 10px 30px 20px 30px;
   }
 
-  @media screen and (max-width: 667px) {
+  @media (max-width: 667px) {
     display: block;
     width: 100%;
     margin: 10px 20px 20px 10px;
     padding: 0;
   }
 
-  @media screen and (max-width: 523px) {
+  @media (max-width: 523px) {
     display: block;
     width: 100%;
     margin: 0;
@@ -54,18 +63,17 @@ export const TextHello = styled.h1`
   color: #fff;
   font: normal 200 57px/40px "Bebas Neue", "sans-serif";
 
+  @media (max-width: 1024px) {
+    font: normal 200 50px/57px "Bebas Neue", "sans-serif";
+  }
+
   @media (max-width: 920px) {
     font: normal 200 40px/51px "Bebas Neue", "sans-serif";
   }
 
-  @media screen and (max-width: 667px) {
+  @media (max-width: 400px) {
     margin-top: 40px;
-    font: normal 200 40px/51px "Bebas Neue", "sans-serif";
-  }
-
-  @media screen and (max-width: 523px) {
-    margin-top: 40px;
-    font: normal 200 48px/51px "Bebas Neue", "sans-serif";
+    font: normal 200 35px/51px "Bebas Neue", "sans-serif";
   }
 `;
 
@@ -83,6 +91,13 @@ export const Imagem = styled.img`
   height: 400px;
   border-radius: 100%;
   filter: brightness(0.5);
+
+  @media (max-width: 1024px) {
+    border-radius: 100%;
+    width: 325px;
+    height: 325px;
+    margin: 30px auto;
+  }
 
   @media (max-width: 920px) {
     border-radius: 100%;

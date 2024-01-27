@@ -12,10 +12,7 @@ export const Container = styled.div`
 
   @media (max-width: 667px) {
     padding: 0;
-  }
-
-  @media (max-width: 523px) {
-    padding: 0;
+    margin: 5px auto;
   }
 `;
 
@@ -23,12 +20,16 @@ export const Content = styled.div`
   display: block;
   margin: 80px 108px;
 
+  @media (max-width: 1024px) {
+    margin: 56px 40px;
+  }
+
   @media (max-width: 667px) {
     margin: 56px 10px 20px 40px;
   }
 
   @media (max-width: 523px) {
-    margin: 64px 16px;
+    margin: 64px 20px;
   }
 `;
 
@@ -36,6 +37,10 @@ export const ContentTitle = styled.h4`
   color: #fff;
   margin: 0;
   font: normal 400 66px/20px "Bebas Neue", "sans-serif";
+
+  @media (max-width: 1024px) {
+    font: normal 400 50px/20px "Bebas Neue", "sans-serif";
+  }
 
   @media (max-width: 920px) {
     font: normal 400 53px/20px "Bebas Neue", "sans-serif";
@@ -45,8 +50,8 @@ export const ContentTitle = styled.h4`
     font: normal 400 43px/20px "Bebas Neue", "sans-serif";
   }
 
-  @media (max-width: 523px) {
-    font: normal 400 43px/20px "Bebas Neue", "sans-serif";
+  @media (max-width: 400px) {
+    font: normal 400 35px/20px "Bebas Neue", "sans-serif";
     margin: 0;
   }
 `;
@@ -62,7 +67,7 @@ export const ContentSubtitle = styled.p`
 
   @media (max-width: 523px) {
     font: normal 400 16px/20px "Manrope", "sans-serif";
-    margin-top: 15px;
+    margin-top: 20px;
   }
 `;
 
@@ -72,6 +77,11 @@ export const CardContainer = styled.div`
   display: flex;
   align-items: center;
   color: #fff;
+
+  @media (max-width: 1024px) {
+    display: block;
+    margin: 56px 40px;
+  }
 
   @media (max-width: 920px) {
     display: block;
@@ -107,10 +117,10 @@ export const ImageDiv = styled.div`
     height: 250px;
   }
 
-  @media (max-width: 523px) {
-    width: 343px;
+  @media (max-width: 400px) {
+    width: 240px;
     padding: 0;
-    height: 250px;
+    height: 170px;
   }
 `;
 
@@ -124,9 +134,9 @@ export const ImageProject = styled.img`
     height: 225px;
   }
 
-  @media (max-width: 523px) {
-    width: 90%;
-    height: 225px;
+  @media (max-width: 400px) {
+    width: 80%;
+    height: 150px;
   }
 `;
 
@@ -145,6 +155,10 @@ export const ProjectTitle = styled.h3`
   @media (max-width: 667px) {
     font: normal 400 24px/20px "Manrope", "sans-serif";
   }
+
+  @media (max-width: 400px) {
+    font: normal 400 22px/20px "Manrope", "sans-serif";
+  }
 `;
 
 export const ProjectDescription = styled.p`
@@ -160,6 +174,14 @@ export const ProjectTable = styled.table`
   width: 100%;
   border: transparent;
   text-align: left;
+
+  @media (max-width: 2560px) {
+    width: 60%;
+  }
+
+  @media (max-width: 900px) {
+    width: 100%;
+  }
 `;
 
 export const ProjectTableTr = styled.tr`

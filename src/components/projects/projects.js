@@ -21,10 +21,6 @@ import {
   ContentSubtitle,
   DemoContainer,
   LiveDemo,
-  IconReact,
-  DivIcons,
-  IconStyled,
-  DivCardStack,
 } from "./styled.js";
 import { Line } from "../contact/styled.js";
 
@@ -47,7 +43,9 @@ const Projects = () => {
             <ProjectTitle>Movie List</ProjectTitle>
             <ProjectDescription>
               Esta é uma aplicação que lista todos os filmes do Studio Ghibli
-              lançados até hoje. A aplicação fornece informações sobre os
+              lançados até hoje. 
+              <br/>
+              A aplicação fornece informações sobre os
               filmes, como descrição e título original.
             </ProjectDescription>
             <div>
@@ -100,19 +98,20 @@ const Projects = () => {
             <ProjectDescription>
               Essa aplicação mostra o clima na sua região. Ela funciona
               utilizando a localização do navegador para buscar o clima da
-              região na API do Weather Map. Ela retorna a temperatura, sensação
+              região na API do Weather Map. 
+              <br/>
+              Ela retorna a temperatura, sensação
               térmica, umidade e etc.
             </ProjectDescription>
             <div>
+              <ProjectTableTh>Informações do Projeto</ProjectTableTh>
               <ProjectTable>
                 <ProjectTableTr>
-                  <ProjectTableTd>
-                    <ProjectTableTh>Informações do Projeto</ProjectTableTh>
-                  </ProjectTableTd>
+                  <ProjectTableTd></ProjectTableTd>
                   <ProjectTableTd></ProjectTableTd>
                 </ProjectTableTr>
                 <ProjectTableTr>
-                  <ProjectTableTd>Year</ProjectTableTd>
+                  <ProjectTableTd>Ano</ProjectTableTd>
                   <ProjectTableTd>2022</ProjectTableTd>
                 </ProjectTableTr>
                 <ProjectTableTr>

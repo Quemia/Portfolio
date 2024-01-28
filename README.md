@@ -32,7 +32,7 @@ then run the command to install the necessary packages
   $ npm start
 ```
 
-# Done with :bulb:
+### Done with :bulb:
 
 ```shell
   ReactJs
@@ -42,6 +42,6 @@ then run the command to install the necessary packages
 
 [Figma Link](<https://www.figma.com/file/j1UDXkpxwCMr8kPSoikOzr/Web-Dev-Portfolio-(Community)?type=design&node-id=0-1&mode=design&t=bzWurdd0na0uCL3m-0>)
 
-## Author :black_nib:
+### Author :black_nib:
 
 Quemia Oliveira - Code and Documentation [Linkedin](https://www.linkedin.com/in/quemia-caroline-alves-de-oliveira-635042209/)

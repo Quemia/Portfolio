@@ -2,7 +2,7 @@
 
 ## Getting Started :rocket:
 
-(Portfolio)[https://quemia-portfolio.vercel.app/] Link
+[Portfolio](https://quemia-portfolio.vercel.app/) Link
 
 ### Prerequisites :page_with_curl:
 
@@ -37,10 +37,10 @@ then run the command to install the necessary packages
 ```shell
   ReactJs
   Styled-Components
-  Figma 
+  Figma
 ```
 
-[Figma Link](https://www.figma.com/file/j1UDXkpxwCMr8kPSoikOzr/Web-Dev-Portfolio-(Community)?type=design&node-id=0-1&mode=design&t=bzWurdd0na0uCL3m-0)
+[Figma Link](<https://www.figma.com/file/j1UDXkpxwCMr8kPSoikOzr/Web-Dev-Portfolio-(Community)?type=design&node-id=0-1&mode=design&t=bzWurdd0na0uCL3m-0>)
 
 ## Author :black_nib:
 

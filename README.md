@@ -2,7 +2,7 @@
 
 ## Getting Started :rocket:
 
-Portfolio Link : https://quemia-portfolio.vercel.app/
+(Portfolio)[https://quemia-portfolio.vercel.app/] Link
 
 ### Prerequisites :page_with_curl:
 

@@ -12,7 +12,7 @@
   Text Editor
 ```
 
-### Installation:wrench:
+### Installation :wrench:
 
 The first step is to download the repository in your machine with git or in zip file:
 

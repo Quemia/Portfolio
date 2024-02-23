@@ -35,18 +35,16 @@ const Projects = () => {
             pelo desenvolvimento Front-End.
           </ContentSubtitle>
         </Content>
+
         <CardContainer>
           <ImageDiv>
-            <ImageProject src="../1.png" alt="image" />
+            <ImageProject src="../4.png" alt="image" />
           </ImageDiv>
           <ProjectAbout>
-            <ProjectTitle>Movie List</ProjectTitle>
+            <ProjectTitle>Arcane</ProjectTitle>
             <ProjectDescription>
-              Esta é uma aplicação que lista todos os filmes do Studio Ghibli
-              lançados até hoje. 
-              <br/>
-              A aplicação fornece informações sobre os
-              filmes, como descrição e título original.
+              Página no estilo Landing Page, onde mostra a promoção da nova
+              temporada da serie Arcane.
             </ProjectDescription>
             <div>
               <ProjectTableTh>Informações do Projeto</ProjectTableTh>
@@ -57,7 +55,60 @@ const Projects = () => {
                 </ProjectTableTr>
                 <ProjectTableTr>
                   <ProjectTableTd>Ano</ProjectTableTd>
-                  <ProjectTableTd>2022</ProjectTableTd>
+                  <ProjectTableTd>2024</ProjectTableTd>
+                </ProjectTableTr>
+                <ProjectTableTr>
+                  <ProjectTableTd>Role</ProjectTableTd>
+                  <ProjectTableTd>Front-End Developer</ProjectTableTd>
+                </ProjectTableTr>
+                <ProjectTableTr>
+                  <ProjectTableTd>Stack</ProjectTableTd>{" "}
+                  <ProjectTableTd>HTML, CSS</ProjectTableTd>
+                </ProjectTableTr>
+              </ProjectTable>
+            </div>
+            <DemoContainer>
+              <p>
+                <LiveDemo
+                  href="https://landing-page-arcane.vercel.app/"
+                  target="_blank"
+                >
+                  {" "}
+                  Live Demo <GoArrowUpRight />
+                </LiveDemo>
+              </p>
+              <LiveDemo
+                href="https://github.com/Quemia/Landing_Page_Arcane"
+                target="_blank"
+              >
+                Veja no GitHub <FaGithub />
+              </LiveDemo>
+            </DemoContainer>
+          </ProjectAbout>
+        </CardContainer>
+
+        <CardContainer>
+          <ImageDiv>
+            <ImageProject src="../1.png" alt="image" />
+          </ImageDiv>
+          <ProjectAbout>
+            <ProjectTitle>Movie List</ProjectTitle>
+            <ProjectDescription>
+              Esta é uma aplicação que lista todos os filmes do Studio Ghibli
+              lançados até hoje.
+              <br />A aplicação fornece informações sobre os filmes, como
+              descrição e título original.
+            </ProjectDescription>
+            <div>
+              <ProjectTableTh>Informações do Projeto</ProjectTableTh>
+              <ProjectTable>
+                <ProjectTableTr>
+                  <ProjectTableTd></ProjectTableTd>
+                  <ProjectTableTd></ProjectTableTd>
+                </ProjectTableTr>
+                <ProjectTableTr>
+                  <ProjectTableTd>Ano</ProjectTableTd>
+                  <ProjectTableTd>2023</ProjectTableTd>
                 </ProjectTableTr>
                 <ProjectTableTr>
                   <ProjectTableTd>Role</ProjectTableTd>
@@ -98,10 +149,9 @@ const Projects = () => {
             <ProjectDescription>
               Essa aplicação mostra o clima na sua região. Ela funciona
               utilizando a localização do navegador para buscar o clima da
-              região na API do Weather Map. 
-              <br/>
-              Ela retorna a temperatura, sensação
-              térmica, umidade e etc.
+              região na API do Weather Map.
+              <br />
+              Ela retorna a temperatura, sensação térmica, umidade e etc.
             </ProjectDescription>
             <div>
               <ProjectTableTh>Informações do Projeto</ProjectTableTh>
